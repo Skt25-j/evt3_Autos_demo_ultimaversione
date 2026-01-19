@@ -1,0 +1,222 @@
+.ab[rend="align-center"] {
+    display: block;
+    text-align: center;
+}
+
+*[rend="strikethrough"] {
+    text-decoration: line-through;
+    display: inline;
+}
+
+*[rend="overwritten"] {
+    font-weight: bold;
+}
+
+*[rend="underline"] {
+    text-decoration: underline;
+}
+
+*[rend="italic"] {
+    font-style: italic;
+}
+
+*[rend="erasure"] {
+    background-color: rgb(70, 70, 70);
+}
+
+*[rend="cross"] {
+    text-decoration: line-through;
+}
+
+*[rend="line_full_width"] {
+    margin-bottom: 0.1rem;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+*[rend="sup"] {
+    vertical-align: text-bottom;
+}
+
+*[place="superscript"] {
+    vertical-align: text-bottom;
+}
+
+.metamark[rend="line"] {
+    display: block;
+    border: 1px solid black;
+    margin-top:-1em;
+    margin-right:70%;
+}
+
+.fw {
+    display: block;
+}
+
+[type="pageNum"][place="top_right"] {
+    float:right;
+    margin-top: -1.5rem;
+}
+
+evt-reading evt-note,
+evt-addition evt-note {
+  display: none;
+}
+
+
+
+
+evt-mod[change="#strato-4"] * {
+    color: rgb(93, 91, 91) !important;
+}
+evt-mod[change="#strato-8"]*{
+    color: rgb(76, 74, 74);
+    
+}
+evt-mod[change="#strato-9"] * {
+    color: rgb(36, 4, 181) !important;
+}
+
+evt-mod[change="#strato-10"] * {
+    color: #bb1515;
+    
+}
+
+/* Regola definitiva per il contenitore principale del cambiamento */
+evt-mod[change="#strato-11"] * {
+    color: rgb(68, 62, 179) !important;
+}
+
+/* 1. Rimuove la possibilità di click sul contenitore della riga numerata */
+span.lb[data-n] { 
+    pointer-events: none !important;
+}
+
+/* 2. Assicura che la riga numerata e il numero a margine siano visibili */
+/* Li impostiamo come elementi in linea (o inline-block) se EVT li ha modificati */
+span.lb[data-n], span.lb[data-n] br {
+    display: inline !important; /* Mantiene l'elemento nel flusso del testo */
+}
+
+/* 3. Assicura che il numero di riga a margine sia visibile */
+.lineN {
+    display: inline !important; 
+    /* Spesso il display viene gestito dalle impostazioni del view mode di EVT */
+}
+
+/* Seleziona l'elemento ADD di EVT (<evt-addition>) con l'attributo rend="indent-start" */
+
+/* 1. Targettiamo l'elemento contenitore <evt-addition> che ha l'attributo data-rend */
+/* 2. Applichiamo la proprietà al discendente che contiene il testo (.evt-span) */
+
+/* Seleziona l'elemento ADD di EVT (<evt-addition>) usando l'attributo 'rend' diretto. */
+evt-addition[rend="indent-start"] .evt-span {
+    /* Rientro marcato e visibile */
+    text-indent: 1em !important; 
+    
+    /* Essenziale per far funzionare text-indent sui tag in linea */
+    display: inline-block !important; 
+}
+
+evt-addition[rend="indent-center"] .evt-span {
+    /* Rientro marcato e visibile */
+    text-indent: 15em !important; 
+    
+    /* Essenziale per far funzionare text-indent sui tag in linea */
+    display: inline-block !important; 
+}
+
+/* --- REGOLA PER LA VISTA DIPLOMATICA --- */
+/* Forza la sparizione di qualsiasi cosa sia marcata come DELETION */
+.diplomatic-view del, 
+.diplomatic del,
+.diplomatic .del,
+.diplomatic .deletion,
+[data-view="diplomatic"] del,
+[data-view="diplomatic"] .del {
+    display: none !important;
+}
+
+/* --- REGOLA PER LA VISTA INTERPRETATIVA --- */
+/* Forza la visibilità se il tag esiste */
+.interpretative-view del, 
+.interpretative del,
+.interpretative .del,
+[data-view="interpretative"] del,
+[data-view="interpretative"] .del {
+    display: inline !important;
+    text-decoration: line-through !important;
+    color: #888 !important;
+}
+
+
+/* Seleziona il contenitore di testo che segue una linea con rend="my-indent" */
+evt-lb[rend="my-indent"] ~ evt-text {
+    /* Applica un margine all'intero blocco di testo successivo */
+    margin-left: 3em !important; 
+}
+
+/* Se l'attributo è mappato come data-rend: */
+evt-lb[data-rend="my-indent"] ~ evt-text {
+    margin-left: 3em !important; 
+}
+
+/* Posiziona l'elemento con place="right" all'estrema destra */
+evt-addition[place="right"] {
+    margin-left: auto; /* Spinge l'elemento a destra nel suo contenitore */
+    float: right;     /* Alternativa: garantisce che sia a destra */
+}
+
+/* Colpisce la cancellazione solo nella prima riga assoluta del box */
+.app-detail-content .row:first-of-type evt-deletion {
+    display: none !important;
+}
+
+/* Nasconde il separatore > solo all'interno del Lemma nell'apparato */
+evt-content-viewer.lem .readingSeparator,
+.lem .readingSeparator,
+.lem .changeGroupSeparator {
+    display: none !important;
+}
+/* 1. Il metamark come cerchio: blu e invisibile di default */
+.metamark[change="#strato-9"] {
+    display: none; /* Nasconde il cerchio negli altri strati */
+    border: 2px solid rgb(36, 4, 181) !important;
+    border-radius: 50% / 15%;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none !important;
+}
+
+/* 2. Mostra il metamark solo quando lo strato 9 è attivo */
+/* EVT aggiunge classi specifiche quando si filtrano i livelli */
+.strato-9 metamark[change="#strato-9"], 
+[change="#strato-9"] {
+    display: inline-block !important;
+}
+
+/* 3. PROTEZIONE DEL COLORE DEL TESTO */
+/* Impedisce al blu dello strato 9 di colorare il testo preesistente */
+.metamark[change="#strato-9"] {
+    color: black !important; 
+}
+
+/* Se ci sono elementi annidati (come i mod strato-1, 0, ecc.) 
+   assicuriamoci che restino neri anche loro */
+.metamark[change="#strato-9"] * {
+    color: black !important;
+}
+
+/* 4. Eccezione: se dentro il cerchio c'è un'aggiunta dello strato 9, 
+   quella deve restare blu */
+.metamark[change="#strato-9"] [change="#strato-9"] {
+    color: rgb(36, 4, 181) !important;
+}
+ /* Esempio di dichiarazione CSS */
+[rend="apice"] {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+
