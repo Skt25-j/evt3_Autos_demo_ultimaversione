@@ -111,6 +111,7 @@
                         <author>Ugo Foscolo</author>
                         <title level="a">Ode a Luigia Pallavicini</title>
                         <date>1800</date>
+                        <ref target="https://it.wikisource.org/wiki/Odi_(Foscolo)/A_Luigia_Pallavicini_caduta_da_cavallo">Testo online</ref>
                     </bibl>
                 </listBibl>
                 <listEvent>
@@ -183,7 +184,7 @@
         <graphic n="25v-26r" width="1820px" height="1440px" url="25v-26r.jpg"/>
         <graphic n="26v-27r" width="1820px" height="1440px" url="26v-27r.jpg"/>
     </facsimile> <!-- Problema dello sdoppiamento della navbar: probabilmente dipende dal changeView attivo-->
-    <text>
+    <text n="Autos" xml:id="Autos">
         <front> <!--Conflitto se inserisco qui del testo non si visulizza la pagina precedente al primo div del body: perchè?-->
         </front>
         <body>
@@ -570,31 +571,31 @@
                     </mod>ri, <mod change="#strato-0">
                         <del><gap quantity="2"  unit="char"/></del>
                     </mod>tenendo
-                    <lb n="3"/>per esempio l’<title ref="#OdePallavicini">Ode</title> del <persName ref="#Foscolo">Foscolo</persName> <!-- Usare quote così da crerae la fonte? Ma è giusto come approccio? si può defnire quote--> a 
-                    <persName ref="#Luigia_Pallavicini">Luigia Pallavicini</persName>,<note n="1" type="critical" resp="#ST">Nota di spiegazione sull'Ode di Foscolo; magari link al testo</note>
+                    <lb n="3"/>per esempio l’<title><ref target="#OdePallavicini">Ode</ref></title> del <persName ref="#Foscolo">Foscolo</persName> <!-- Usare quote così da crerae la fonte? Ma è giusto come approccio? si può defnire quote--> a 
+                    <persName ref="#Luigia_Pallavicini">Luigia Pallavicini</persName>,<note n="1" type="critical" resp="#ST">"https://it.wikisource.org/wiki/Odi_(Foscolo)/A_Luigia_Pallavicini_caduta_da_cavallo"</note>
                     <lb n="4"/>trovata in un librettino<mod change="#strato-0">
                         <del rend="strikethrough">tutto</del>
                     </mod>che credo avrebbe
                     <lb n="5"/>fatto figura in qualunque museo d’antichità.
                     <lb n="6"/><mod change="#strato-0"><del rend="strikethrough">Senza comprenderne il significato contai <lb/>alla meglio tutte le sillabe de’ primi versi</del></mod>
                     I versi sono
-                    <lb n="7"/>questi: <lg n="1"><l n="1">Paura questa notte</l>
+                    <lb n="7"/>questi: <lg n="1" rend="align-center"><l n="1">Paura questa notte</l>
                         <l n="2">io ho avuto tanto;</l>
                         <l n="3">e l’ore interrotte</l>
                         <l n="4">mi sono dal pianto.</l>
                         <l n="5">Ho tremato e patito</l>
                         <l n="6">in modo infinito.</l></lg>
                     <lb/>
-                    <l n="7">Ho  sentito la fata</l>
+                    <lg n="2"><l n="7">Ho  sentito la fata</l>
                     <l n="8">che all’inizio bussava</l>
                     <l n="9">e l’ho vista quando è stata</l>
                     <l n="10">presso al letto che minacciava.</l>
                     <l n="11">Di <mod change="#strato-0"><subst><del rend="overwritten"><gap quantity="2"  unit="char"/></del>
                                 <add place="superimposed"><hi rend="underline">lupo</hi></add>
                             </subst></mod>parevano</l>
-                    <l n="12">gli occhi <mod change="#strato-0"><add place="above">rossi e</add></mod><note n="2" type="critical" resp="#ST">L’autore inserisce in interlinea superiore, oltre all’aggettivo, la congiunzione «e», non cassandola in riga; onde evitare la ripetizione, non è stata riportata a testo e considerata soppressa.</note> la mano.</l>
+                    <l n="12">gli occhi <mod change="#strato-0"><add place="above">rossi e</add></mod><note n="2" type="critical" resp="#ST">L’autore inserisce in interlinea superiore, oltre all’aggettivo, la congiunzione «e», non cassandola in riga; onde evitare la ripetizione, non è stata riportata a testo e considerata soppressa.</note> la mano.</l></lg>
                     <lb/>
-                    <lg n="2"><l n="13">Voleva gridar “mamma”</l>
+                    <lg n="3"><l n="13">Voleva gridar “mamma”</l>
                         <l n="14">ma non ebbi coraggio</l>
                         <l n="15">d’accender della fiamma</l>
                         <l n="16">il luminoso raggio.</l>

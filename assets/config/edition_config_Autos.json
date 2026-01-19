@@ -149,7 +149,8 @@
     "elementAttributesToMatch": [
       "target",
       "source",
-      "ref"
+      "ref",
+      "title"
     ]
   },
   "biblView": {
@@ -157,6 +158,7 @@
       "author",
       "title",
       "date",
+      "ref",
       "editor",
       "publisher",
       "pubPlace",
