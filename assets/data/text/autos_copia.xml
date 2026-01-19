@@ -460,10 +460,10 @@
                 <p rend="indent"><lb n="18"/>Questo fu il mio vizio dominante in quell’età e non me ne potei
                     
                     <mod change="#strato-0">
-                       <subst seq="1"><del rend="strikethrough"><add place="above">mai</add>
-                        </del></subst>
-                        esser <subst seq="2"><del rend="strikethrough"><add place="above">mai</add>
-                        </del></subst>corretto
+                       <del rend="strikethrough" seq="4"><add place="above" seq="3">mai</add>
+                        </del>
+                        esser <del rend="strikethrough" seq="2"><add place="above" seq="1">mai</add>
+                        </del>corretto
                     </mod>
                     
                    <!--  <app><lem varSeq="4"><mod change="#strato-0">esser <lb n="19"/>corretto</mod></lem>
