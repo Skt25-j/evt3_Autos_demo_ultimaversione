@@ -106,12 +106,12 @@
                     <relation name="madre" active="#Anna_Riedi" passive="#Stefano_Tuscano" />
                 </listRelation>
                 <listBibl xml:id="Opere_citate">
-                    <head>Opere citate</head>
-                    <bibl xml:id="OdePallavicini"> 
-                        <author>Ugo Foscolo</author>
-                        <title level="a">Ode a Luigia Pallavicini</title>
-                        <date>1800</date>
-                        <ref target="https://it.wikisource.org/wiki/Odi_(Foscolo)/A_Luigia_Pallavicini_caduta_da_cavallo">Testo online</ref>
+                    <head>Bibliografia del progetto</head>
+                    <bibl xml:id="OdePallavicini">
+                        <author>Ugo Foscolo</author>, 
+                        <title level="a">Ode a Luigia Pallavicini</title> 
+                        (<date when="1800">1800</date>). 
+                        <ref target="https://it.wikisource.org/...">Testo online</ref>
                     </bibl>
                 </listBibl>
                 <listEvent>
@@ -124,20 +124,20 @@
         <profileDesc>
             <creation corresp="#Autos" resp="#ST">
                 <listChange ordered="true">
-                    <change xml:id="strato-0">Penna A <note>penna nera con cui scrive il testo di Autos da 1r1 a 17r1 – esclusi i versi –</note></change><!--Da come scrive si vede che sono correzioni avvenute in un secondo momento-->
-                    <change xml:id="strato-1">Penna B <note>penna nera con cui scrive a partire da 17r1 fino a 7r2 – esclusi i versi –; con questa penna e con questo tipo di scrittura Tuscano ha anche prodotto alcune correzioni nelle parti precedenti e inserito i numeri in alto a destra sui recti dei due quaderni fino a 7r2 – corretti successivamente a lapis –.</note></change>
-                    <change xml:id="strato-2">Penna C <note>penna nera con cui l’autore compila i versi a partire 18v1 fino a 6v2 e, successivamente, i recti da 7r2 a 22r2. Con il medesimo inchiostro inserisce i numeri di pagina sui recti a partire da 8r2, i quali non vengono più corretti fino alla conclusione del quaderno.</note></change>
-                    <change xml:id="strato-3">Penna D <note>penna nera con cui scrive i recti a partire da metà 8r2, per la precisione dall’inizio del paragrafo Montalcino, fino a 11r2; ne è prova il repentino cambio di grafia.</note></change>
-                    <change xml:id="strato-4">Lapis E <note>lapis utilizzato per l’inserimento dei numeri di pagina sui versi scritti successivamente rispetto ai recti e la correzione del numero su quest’ultimi a partire da 18v1 fino a 7r2; a questi, si aggiungono correzioni e postille sporadiche.</note></change>
-                    <change xml:id="strato-5">Penna F <note>penna nera con cui l’autore termina di scrivere i recti del secondo quaderno, fatta eccezione per le parti conclusive a penna: va da 12r2 a fine di 22r2.</note></change>
-                    <change xml:id="strato-6">Penna G  <note>penna nera con cui viene scritto l’appunto slegato presenta a 16v2 e 17v2, datato agosto 1911</note> </change>
-                    <change xml:id="strato-7">Penna H <note>penna di colore blu con cui Tuscano chiude il secondo diario e corregge alcune parti</note> </change>
-                    <change xml:id="strato-8">Lapis I <note>lapis con cui apporta vari interventi nel secondo quaderno</note></change>
-                    <change xml:id="strato-9">Matita L <note>matita di colore blu con cui apporta alcuni interventi</note></change>
-                    <change xml:id="strato-10">Matita M <note>matita di colore rosso con cui apporta alcuni interventi</note></change>
-                    <change xml:id="strato-11">Penna N <note>penna di colore blu, per intensità dell’inchiostro sensibilmente diversa dalla precedente penna H, con cui l’autore apporta la nota datata 1921 sull’interno della copertina. </note></change>
-                    <change xml:id="strato-X">Lapis X <note>lapis con una mina molto scura, utilizzato soltanto per alcune cassature a 24r2.</note></change>
-                    <change xml:id="strato-Y">Penna Y <note>penna di colore nero scuro, non tendente al marrone come le altre, che interviene in pochi e circoscritti punti del testo, di difficile collocabilità rispetto alla cronologia degli interventi.</note></change>
+                    <change xml:id="strato-0">Penna A <p>penna nera con cui scrive il testo di Autos da 1r1 a 17r1 – esclusi i versi –</p></change><!--Da come scrive si vede che sono correzioni avvenute in un secondo momento-->
+                    <change xml:id="strato-1">Penna B <p>penna nera con cui scrive a partire da 17r1 fino a 7r2 – esclusi i versi –; con questa penna e con questo tipo di scrittura Tuscano ha anche prodotto alcune correzioni nelle parti precedenti e inserito i numeri in alto a destra sui recti dei due quaderni fino a 7r2 – corretti successivamente a lapis –.</p></change>
+                    <change xml:id="strato-2">Penna C <p>penna nera con cui l’autore compila i versi a partire 18v1 fino a 6v2 e, successivamente, i recti da 7r2 a 22r2. Con il medesimo inchiostro inserisce i numeri di pagina sui recti a partire da 8r2, i quali non vengono più corretti fino alla conclusione del quaderno.</p></change>
+                    <change xml:id="strato-3">Penna D <p>penna nera con cui scrive i recti a partire da metà 8r2, per la precisione dall’inizio del paragrafo Montalcino, fino a 11r2; ne è prova il repentino cambio di grafia.</p></change>
+                    <change xml:id="strato-4">Lapis E <p>lapis utilizzato per l’inserimento dei numeri di pagina sui versi scritti successivamente rispetto ai recti e la correzione del numero su quest’ultimi a partire da 18v1 fino a 7r2; a questi, si aggiungono correzioni e postille sporadiche.</p></change>
+                    <change xml:id="strato-5">Penna F <p>penna nera con cui l’autore termina di scrivere i recti del secondo quaderno, fatta eccezione per le parti conclusive a penna: va da 12r2 a fine di 22r2.</p></change>
+                    <change xml:id="strato-6">Penna G  <p>penna nera con cui viene scritto l’appunto slegato presenta a 16v2 e 17v2, datato agosto 1911</p> </change>
+                    <change xml:id="strato-7">Penna H <p>penna di colore blu con cui Tuscano chiude il secondo diario e corregge alcune parti</p> </change>
+                    <change xml:id="strato-8">Lapis I <p>lapis con cui apporta vari interventi nel secondo quaderno</p></change>
+                    <change xml:id="strato-9">Matita L <p>matita di colore blu con cui apporta alcuni interventi</p></change>
+                    <change xml:id="strato-10">Matita M <p>matita di colore rosso con cui apporta alcuni interventi</p></change>
+                    <change xml:id="strato-11">Penna N <p>penna di colore blu, per intensità dell’inchiostro sensibilmente diversa dalla precedente penna H, con cui l’autore apporta la nota datata 1921 sull’interno della copertina. </p></change>
+                    <change xml:id="strato-X">Lapis X <p>lapis con una mina molto scura, utilizzato soltanto per alcune cassature a 24r2.</p></change>
+                    <change xml:id="strato-Y">Penna Y <p>penna di colore nero scuro, non tendente al marrone come le altre, che interviene in pochi e circoscritti punti del testo, di difficile collocabilità rispetto alla cronologia degli interventi.</p></change>
                 </listChange>
             </creation>
         </profileDesc>
@@ -571,8 +571,8 @@
                     </mod>ri, <mod change="#strato-0">
                         <del><gap quantity="2"  unit="char"/></del>
                     </mod>tenendo
-                    <lb n="3"/>per esempio l’<title><ref target="#OdePallavicini">Ode</ref></title> del <persName ref="#Foscolo">Foscolo</persName> <!-- Usare quote così da crerae la fonte? Ma è giusto come approccio? si può defnire quote--> a 
-                    <persName ref="#Luigia_Pallavicini">Luigia Pallavicini</persName>,<note n="1" type="critical" resp="#ST">"https://it.wikisource.org/wiki/Odi_(Foscolo)/A_Luigia_Pallavicini_caduta_da_cavallo"</note>
+                    <lb n="3"/>per esempio l’<title><ref type="bibl" target="#OdePallavicini">Ode</ref></title> del <persName ref="#Foscolo">Foscolo</persName> <!-- Usare quote così da crerae la fonte? Ma è giusto come approccio? si può defnire quote--> a 
+                    <persName ref="#Luigia_Pallavicini">Luigia Pallavicini</persName>,
                     <lb n="4"/>trovata in un librettino<mod change="#strato-0">
                         <del rend="strikethrough">tutto</del>
                     </mod>che credo avrebbe
@@ -593,7 +593,7 @@
                     <l n="11">Di <mod change="#strato-0"><subst><del rend="overwritten"><gap quantity="2"  unit="char"/></del>
                                 <add place="superimposed"><hi rend="underline">lupo</hi></add>
                             </subst></mod>parevano</l>
-                    <l n="12">gli occhi <mod change="#strato-0"><add place="above">rossi e</add></mod><note n="2" type="critical" resp="#ST">L’autore inserisce in interlinea superiore, oltre all’aggettivo, la congiunzione «e», non cassandola in riga; onde evitare la ripetizione, non è stata riportata a testo e considerata soppressa.</note> la mano.</l></lg>
+                    <l n="12">gli occhi <mod change="#strato-0"><add place="above">rossi e</add></mod><note n="1" type="critical" resp="#ST">L’autore inserisce in interlinea superiore, oltre all’aggettivo, la congiunzione «e», non cassandola in riga; onde evitare la ripetizione, non è stata riportata a testo e considerata soppressa.</note> la mano.</l></lg>
                     <lb/>
                     <lg n="3"><l n="13">Voleva gridar “mamma”</l>
                         <l n="14">ma non ebbi coraggio</l>
@@ -610,15 +610,15 @@
                 <pb n="5r1" facs="5r.jpg"/>
                 <fw place="top_right" type="pageNum"><mod change="#strato-1"><add>5</add></mod></fw>
                 <lg n="3">
-                    <l n="1">Maledissi la serva</l>
-                    <l n="2">e le sue novelle</l>
-                    <l n="3">della cornuta cerva</l>
-                    <l n="4">e le re<mod change="#strato-0">
+                    <l n="19">Maledissi la serva</l>
+                    <l n="20">e le sue novelle</l>
+                    <l n="21">della cornuta cerva</l>
+                    <l n="22">e le re<mod change="#strato-0">
                             <subst><del rend="overwritten">i</del>
                                 <add place="superimposed">gi</add></subst>
                         </mod>ne sorelle</l>
-                    <l n="5">della fata Morgana</l>
-                    <l n="6">e della testa umana.</l>
+                    <l n="23">della fata Morgana</l>
+                    <l n="24">e della testa umana.</l>
                 </lg>
                 <lb/>
                 <lg><mod change="#strato-Y">
@@ -632,11 +632,11 @@
                         </del> 
                     </mod></lg>
                 <lb/>
-                <lg n="4"><l n="7">Mi credei infelice</l>
-                    <l n="8">quando invece l’aurora</l>
-                    <l n="9">ch’è giorno mi dice</l>
-                    <l n="10">un’altra volta ancora,</l>
-                    <l n="11">e <mod change="#strato-0">
+                <lg n="4"><l n="25">Mi credei infelice</l>
+                    <l n="26">quando invece l’aurora</l>
+                    <l n="27">ch’è giorno mi dice</l>
+                    <l n="28">un’altra volta ancora,</l>
+                    <l n="29">e <mod change="#strato-0">
                             <substJoin target="#del_i #add_o"/>
                             <del rend="strikethrough" xml:id="del_i">i</del>l<add xml:id="add_o">o</add>
                             <subst><del rend="strikethrough">trem</del>
@@ -645,20 +645,20 @@
                     <!-- In questa codifica viene persa l'organicità della correzione:
                          Tuscano scrive prima "il trem" e lo corregge subito con "lo spavento": l'uso dia app potrebbe ripristinarla, però forse non è necessario da esplicitare. Si tratta, inoltre, di una correzione currenti calamo e, dunque, l'uso di subst magari è più indicato
                          NB gli atributi left e right alterano la visualizzazione di questi interventi sulla pagina-->
-                    <l n="12">dalla mia atterrita faccia.</l>
+                    <l n="30">dalla mia atterrita faccia.</l>
                 </lg>
                 <lb/>
                 <lg n="5">
-                    <l n="13">Ahi dolce aurora bella</l>
-                    <l n="14">quanto mi consolasti</l>
-                    <l n="15">che tu, <mod change="#strato-0">
+                    <l n="31">Ahi dolce aurora bella</l>
+                    <l n="32">quanto mi consolasti</l>
+                    <l n="33">che tu, <mod change="#strato-0">
                             <subst> <del rend="overwritten">q</del>
                                 <add place="superimposed">c</add></subst></mod>ome sorella,</l>
-                    <l n="16">venisti e mi consolasti,</l>
-                    <l n="17">col bacio <mod change="#strato-0">
+                    <l n="34">venisti e mi consolasti,</l>
+                    <l n="35">col bacio <mod change="#strato-0">
                             <subst><add place="above">e la </add>
                                 <del rend="strikethrough">acc</del></subst>carezza<del rend="strikethrough">ndo</del></mod></l>
-                    <l n="18">della mamma e della <mod change="#strato-Y">
+                    <l n="36">della mamma e della <mod change="#strato-Y">
                             <subst><del rend="overwritten"><gap quantity="5"  unit="char"/></del>
                                 <add place="superimposed">stella</add></subst></mod>.</l>
                 </lg>
