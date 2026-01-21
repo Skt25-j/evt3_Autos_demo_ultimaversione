@@ -301,7 +301,7 @@
                         </rdg>
                     </app>
                     
-                    <!--Se si mantiene il varSeq su lem e rdg, Evt visualizza l'errorre 12121212121212 N.B. Non è una visualizzazione sbagliata, appare soltanto questa striscia di numeri; il codice funziona.-->
+                    <!--Se si mantiene il varSeq su lem e rdg, Evt visualizza l'errorre 12121212121212 N.B. Non è una visualizzazione sbagliata, appare soltanto questa striscia di numeri; il codice funziona. Il varSeq è necessario per il corretto ordine di lettura delle correzioni-->
                     <!-- <mod change="#strato-1"><del rend="strikethrough">anni</del></mod> 
                          ai nove <mod change="#strato-1"><add place="above">anni</add></mod> 
                          Questa codifica presenta un problema teorico: separando la cancellazione e la successiva aggiunta della parola "anni" in due mod differenti, si perde il legame tra le due operazioni.
@@ -494,10 +494,26 @@
                 <p rend="indent">
                     <lb n="10"/>Non avevo ancora finiti gli undici anni, e non conoscevo<lb n="11"/>per niente la metrica. Era una notte
                     <app>
+                        <lem varSeq="2">
+                            <mod change="#strato-1">
+                                <add place="above" seq="2">negli ultimi </add>
+                                <subst seq="2">
+                                    <del rend="strikethrough">di ottobre </del> 
+                                    <add place="above">d'ottobre </add> </subst>
+                                <add place="above" seq="1"> 
+                                    <del rend="strikethrough" seq="4">o novembre</del> del 1903</add>
+                            </mod>
+                        </lem>
+                        <rdg varSeq="1">
+                            <mod change="#strato-0">di ottobre</mod>
+                        </rdg>
+                    </app>
+                    <!-- il varSeq se inserito continua a mostrare 12121
+                         <app>
                         <lem varSeq="4">
                             <mod change="#strato-1">
                                 negli ultimi d'ottobre
-                                <del rend="strikethrough" seq="1">o di novembre</del>
+                                <del rend="strikethrough" seq="1">o novembre</del>
                                 del 1903
                             </mod>
                         </lem>
@@ -513,7 +529,8 @@
                         <rdg varSeq="1">
                             <mod change="#strato-0">di ottobre</mod>
                         </rdg>
-                    </app><mod change="#strato-0">
+                    </app> Codifica sbagliata perchè ho più di un reading per il medesimo strato-->
+                    <mod change="#strato-0">
                         <subst><add place="above">non potendomi<lb n="12"/>addormentare</add>
                             <del rend="strikethrough">e non mi riuscì <lb n="12"/> dormire</del></subst></mod>,
                     <!-- <mod change="#strato-0"><add place="above">non potendomi</add> <del rend="strikethrough">e non mi riuscì</del></mod>
@@ -522,8 +539,13 @@
                     --> non so <mod change="#strato-0"><add place="above">il</add></mod> perché, mi parve di sentir<lb n="13"/>dei bussi,
                     d<mod change="#strato-0"><subst><add place="superimposed">i</add><del rend="overwritten">ei</del></subst></mod> veder delle larve e ricordandomi di tutte le fiabe<lb n="14"/>paurose raccontatemi
                     <app>
-                        <lem varSeq="3"><mod change="#strato-1"><del rend="strikethrough">nel</del> <add place="inline">da bimbo</add></mod></lem>
-                        <rdg varSeq="2"><mod change="#strato-1"><del rend="strikethrough">della serva</del><add place="above">nel</add></mod></rdg>
+                        <lem varSeq="3"><mod change="#strato-1">
+                                <subst seq="2"><del rend="strikethrough">
+                                        <subst seq="1"><del rend="strikethrough">della serva</del>
+                                            <add place="above">nel</add></subst>
+                                </del> 
+                                <add place="inline">da bimbo</add></subst>
+                            </mod></lem>
                         <rdg varSeq="1"><mod change="#strato-0">dalla serva</mod></rdg>
                     </app>
                     mi prese <mod change="#strato-0">
@@ -684,7 +706,7 @@
                         </subst><del rend="strikethrough">sen</del>
                     </mod>di maggior valore col tempo e co<mod change="#strato-0">
                         <subst><del rend="overwritten">ll'</del>
-                            <add rend="superimposed">n</add></subst></mod> l’oblio;
+                            <add rend="superimposed">n l’</add></subst></mod>oblio;
                     <lb n="6"/>di quando in quando però mi era dolce andare a ricavarla e specialmente
                 </p>
             </div>
@@ -883,17 +905,20 @@
                     </mod> d’Orcia, il quale <mod change="#strato-0">
                         <subst><del rend="strikethrough">non potè</del>
                             <add place="inline">andò</add></subst></mod> sperso 
-                    <app><lem varSeq="4"><mod change="#strato-1"><add place="above">e del quale <del rend="strikethrough">ho</del>or ultimamente</add>non 
+                    <app><lem varSeq="2"><mod change="#strato-1"><add place="above">e del quale <del rend="strikethrough">ho</del>or ultimamente</add>non 
                                 <subst><del rend="strikethrough">mi ricordo</del><add place="above"> 
                                         <lb n="3"/>ho potuto ritrovare tra i miei fogli antichi non oltre</add></subst> che la prima quartina e 
-                                <subst><del rend="strikethrough">del</del><add>l’</add></subst>l’ultima terzina.</mod></lem>
-                        <rdg varSeq="3"><mod change="#strato-0">e non mi ricordo che<add place="inline"> <subst><del rend="overwritten">di</del>
-                                        <add place="superimposed">della</add></subst> 
-                                    <subst><del rend="overwritten">qualche</del>
-                                        <add place="superimposed">prima</add></subst> quartina e dell’ultima terzina.</add></mod></rdg>
-                        <rdg varSeq="2"><mod change="#strato-0"><subst><del rend="overwritten">:</del><add place="superimposed">e</add></subst> non mi ricordo <del rend="strikethrough">che</del>
-                                <add place="inline">che di qualche verso</add></mod></rdg> 
-                        <rdg varSeq="1"><mod change="#strato-0">non mi ricordo che</mod></rdg>  
+                                <subst><del rend="strikethrough">del</del><add>l’</add></subst>ultima terzina.</mod></lem>
+                        <rdg varSeq="1"><mod change="#strato-0">
+                                <subst seq="1"><del rend="overwritten">:</del><add place="superimposed">e</add></subst> 
+                                non mi ricordo <subst seq="2"><del rend="strikethrough">che</del>
+                                <add place="inline">che 
+                                        <subst seq="3"><add place="inline"> <subst><del rend="overwritten">di</del>
+                                                <add place="superimposed">della</add></subst> 
+                                            <subst><del rend="overwritten">qualche</del>
+                                                <add place="superimposed">prima</add></subst> quartina e dell’ultima terzina.</add>
+                                        <del rend="overwritten">di qualche verso</del></subst></add>
+                                </subst></mod></rdg>  
                     </app></p>
                 <lb n="4"/>
                 <lg n="1"><l n="1">Sotto il Monte Amiata io l’Orcia vedo</l>
@@ -1208,7 +1233,11 @@
                             <add place="inline">superiori</add></subst></mod>, 
                     <mod change="#strato-0"><del rend="strikethrough">mi</del></mod>
                     da cui mi
-                    <app>
+                   <mod change="#strato-0">ingenuamente <add place="above">1</add><subst seq="1"><del rend="strikethrough">f</del>
+                                    <add place="inline">credetti<add place="above">2</add> 
+                            </add></subst></mod>
+                        
+                    <!-- <app>
                         <lem><mod change="#strato-0">ingenuamente <subst seq="1"><del rend="strikethrough">f</del>
                                     <add place="inline">credetti</add></subst></mod></lem>
                         <rdg>
@@ -1216,7 +1245,7 @@
                                 credetti<add place="above">2</add> 
                                 ingenuamente<add place="above">1</add></mod>
                         </rdg>
-                    </app>
+                    </app> è sbagliata perchè è lo stesso strato; basta subst-->
                     
                     <note n="1" resp="ST" type="critical">
                         L’autore stabilisce l’ordine definitivo delle parole inserendo apici numerici in interlinea superiore.   
