@@ -1482,7 +1482,7 @@
                                     <add place="inline">Il titolo</add></subst></del>
                             <add place="inline"><lb n="14"/>Questa tragedia</add></subst></mod> nella mia intenzione doveva essere
                     allegorica
-                    <app> <lem>
+                    <app> <lem varSeq="2">
                             <mod change="#strato-4">
                                 <add place="above">alla mia vita d'allora</add>
                                 e <subst><del rend="strikethrough">ogni</del>
@@ -1512,7 +1512,7 @@
                              <add place="inline">a me</add></subst></add></subst>  
                              </mod></lem>
                         -->
-                        <rdg><mod change="#strato-0"><add place="above" seq="1">alla mia vita d'allora</add>
+                        <rdg varSeq="1"><mod change="#strato-0"><add place="above" seq="1">alla mia vita d'allora</add>
                                 e ogni personaggio <subst seq="2"><del rend="strikethrough">avere il suo simbolo </del>
                                     <add place="inline"> <lb n="15"/>alludere 
                                         <subst seq="2"><del rend="strikethrough">a' miei</del>
@@ -1551,8 +1551,8 @@
                         <add place="above">progressivo,</add></mod> dell’ingegno, e qualche sprazzo di 
                     <lb n="12"/>luce viva che vi si trova abbassato dall’inesperienza,
                     <lb n="13"/>per mostrare quello che dava a bene sperare sul
-                    <lb n="14"/>mio avvenire, <app><lem><mod change="#strato-1"><retrace>su la mia</retrace></mod></lem>
-                        <rdg><mod change="#strato-0">su la mia</mod></rdg>    
+                    <lb n="14"/>mio avvenire, <app><lem varSeq="2"><mod change="#strato-1"><retrace>su la mia</retrace></mod></lem>
+                        <rdg varSeq="1"><mod change="#strato-0">su la mia</mod></rdg>    
                     </app><note n="1" resp="#ST" type="critical">Sintagma ripassato con la penna - B dello strato-1. Da questo momento Tuscano scrive solo con la penna - B.</note> vita.
                 </p>
                 <p rend="indent">
@@ -1598,10 +1598,10 @@
                             <l n="4">che tu benigno adori, in te la mano</l>
                             <l n="5">onnipotente stese e di sublimi</l>
                             <l n="6">virtudi adorno ti donò <app>
-                                    <lem><mod change="#strato-4">
+                                    <lem varSeq="2"><mod change="#strato-4">
                                             <del rend="strikethrough">uno</del>
                                             <add place="above">lo</add></mod></lem>
-                                    <rdg><mod change="#strato-1">uno</mod></rdg>    
+                                    <rdg varSeq="1"><mod change="#strato-1">uno</mod></rdg>    
                                 </app> spirto.</l>
                             <l n="7">Ne l’alma tu
                                 <mod change="#strato-1"><subst><del rend="overwritten">r</del>
@@ -1678,20 +1678,21 @@
                 <pb n="19r1" facs="19r.jpg"/>
                 <fw place="top_right" type="pageNum">
                     <app>
-                        <lem><mod change="#strato-4">21</mod></lem>
-                        <rdg><mod change="#strato-1">20</mod></rdg>
+                        <lem varSeq="2"><mod change="#strato-4">21</mod></lem>
+                        <rdg varSeq="1"><mod change="#strato-1">20</mod></rdg>
                     </app></fw>
                 <p rend="indent">
                 <mod change="#strato-1">
                         <lg><l n="9">e dagli eletti suoi recinti un’alma</l>
                         <l n="10">grande ti trasse e per le tue virtudi</l>
                         <l n="11">ti rendi quasi Sol fra lucidi astri.</l></lg> 
-                        un altro era questo:
-                        Dario: Deh! vieni, inclito vate; omai non tristi
-                        fantasime, non ombre insidiatrici
-                        vagano  per quest’aure e l’ira iniqua
-                        dei tuoi nemici non un cupo suono
-                        rende a le regie stanze.
+                        <lb n="1"/>un altro era questo:
+                        <lb n="2"/>Dario: 
+                        <lg n="10"><l n="1">Deh! vieni, inclito vate; omai non tristi</l>
+                        <l n="2">fantasime, non ombre insidiatrici</l>
+                        <l n="3">vagano  per quest’aure e l’ira iniqua</l>
+                        <l n="4">dei tuoi nemici non un cupo suono</l>
+                        <l n="5">rende a le regie stanze.</l></lg>
 
                 </mod>
                 </p>
