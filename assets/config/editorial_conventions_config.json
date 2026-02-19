@@ -14,6 +14,11 @@
                 "style": {
                     "background-color": "#bdecb6"
                 }
+            },
+            "interpretative": {
+                "style": {
+                    "background-color": "#bdecb6"
+                }
             }
         }
     },
@@ -204,14 +209,15 @@
             },
             "diplomatic": {
                 "style": {
-                    "display": "none" 
+                    "display": "inline",
+                    "background-color": "#ffcccb" 
                 }
             }, 
             "interpretative": {
                 "pre": "[",
                 "post": "]",
                 "style": {
-                    "display": "inline",
+                    "display": "none",
                     "background-color": "#ffcccb"
                 }
             },
@@ -340,17 +346,17 @@
         "layouts": {
             "diplomatic": {
                 "style": {
-                    "background-color": "#bdecb6"
+                    "background-color": "none"
                 }
             },
             "critical": {
                 "style": {
-                    "background-color": "#bdecb6"
+                    "background-color": "none"
                 }
             },
             "interpretative": {
                 "style": {
-                    "background-color": "#bdecb6"
+                    "background-color": "none"
                 }
             }
         }

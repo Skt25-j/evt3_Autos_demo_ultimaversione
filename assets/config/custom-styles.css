@@ -82,6 +82,7 @@ evt-mod[change="#strato-10"] * {
     
 }
 
+
 /* Regola definitiva per il contenitore principale del cambiamento */
 evt-mod[change="#strato-11"] * {
     color: rgb(68, 62, 179) !important;
