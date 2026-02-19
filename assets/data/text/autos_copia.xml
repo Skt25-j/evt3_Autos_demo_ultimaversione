@@ -200,7 +200,7 @@
                     <lb n="1"/>
                     primi appunti 
                     <lb n="2"/>
-                    <hi rend="underline" n="5">Autobiografici - </hi>
+                    <hi rend="underline">Autobiografici - </hi>
                     <lb n="3"/>(da 10 a 15 anni) - 1910 -
                     <lb />
                     <lb />
@@ -321,7 +321,7 @@
                          <substJoin target="#change1 #change2"/>
                          </mod>
                          Con substjoin, però, la correzione si visualizza solo nello strato-1 e si perde la diacronia dell'intervento.
-                    --><choice resp="#ST"><sic>comincierò</sic><corr resp="#ST">comincerò</corr></choice>
+                    --><choice resp="#ST"><sic>comincerò</sic><corr resp="#ST">comincierò</corr></choice>
                     <mod change="#strato-1"><add place="above">tuttavia</add></mod>
                     ad esaminare e ad esporre i fatti <lb n="6"/> e i sentimenti 
                     <app>
@@ -530,9 +530,9 @@
                             <mod change="#strato-0">di ottobre</mod>
                         </rdg>
                     </app> Codifica sbagliata perchè ho più di un reading per il medesimo strato-->
-                    <mod change="#strato-0">
-                        <subst><add place="above">non potendomi<lb n="12"/>addormentare</add>
-                            <del rend="strikethrough">e non mi riuscì <lb n="12"/> dormire</del></subst></mod>,
+                    <!-- Trovare il modo di separare le due lezioni visivamente--><gap/> <mod change="#strato-0">
+                        <subst><add place="above">non potendomi<lb n="12"/></add>
+                            <del rend="strikethrough">e non mi riuscì <lb n="12"/> dormire</del><add place="inline">addormentare</add></subst></mod>,
                     <!-- <mod change="#strato-0"><add place="above">non potendomi</add> <del rend="strikethrough">e non mi riuscì</del></mod>
                          <lb n="11"/><mod change="#strato-0"><del rend="strikethrough">dormire</del> <add place="inline">addormentare</add></mod>,
                          Usare questa codifica spezza l'organicità della correzione
@@ -544,7 +544,7 @@
                                         <subst seq="1"><del rend="strikethrough">della serva</del>
                                             <add place="above">nel</add></subst>
                                 </del> 
-                                <add place="inline">da bimbo</add></subst>
+                                <add place="above">da bimbo</add></subst>
                             </mod></lem>
                         <rdg varSeq="1"><mod change="#strato-0">dalla serva</mod></rdg>
                     </app>
@@ -1612,16 +1612,16 @@
                                         <add place="superimposed">egna</add></subst></mod> mandar dall’alto.</l></lg>
                         
                         <lb n="10"/>un altro era questo: 
-                        <lb n="11"/>Dario: <lg><l n="10">Sorgi, o sorriso degli eterni labbri,</l>
-                            <l n="11">sorgi, Daniele; la fortuna arride</l>
-                            <l n="12">a te benigna; e già mi par che lieta</l>
-                            <l n="13">con dive mani un regio serto al crine</l>
-                            <l n="14">per la mia morte inviolat<mod change="#strato-1"><subst><del rend="overwritten">a</del>
+                        <lb n="11"/>Dario: <lg><l n="1">Sorgi, o sorriso degli eterni labbri,</l>
+                            <l n="2">sorgi, Daniele; la fortuna arride</l>
+                            <l n="3">a te benigna; e già mi par che lieta</l>
+                            <l n="4">con dive mani un regio serto al crine</l>
+                            <l n="5">per la mia morte inviolat<mod change="#strato-1"><subst><del rend="overwritten">a</del>
                                         <add place="superimposed">o</add></subst></mod> ponga.</l>
-                            <l n="15">Da’ vasti campi degli eccelsi cieli</l>
-                            <l n="16">ti guarda Dio com’<mod change="#strato-1"><subst><del rend="overwritten"><gap unit="char" quantity="3"/></del>
+                            <l n="6">Da’ vasti campi degli eccelsi cieli</l>
+                            <l n="7">ti guarda Dio com’<mod change="#strato-1"><subst><del rend="overwritten"><gap unit="char" quantity="3"/></del>
                                         <add place="superimposed">uom</add></subst></mod> la sua pupilla.</l>
-                            <l n="17">Grande ti fè l’onnipotente mano</l></lg>
+                            <l n="8">Grande ti fè l’onnipotente mano</l></lg>
                     </mod> <!-- é il varSeq che fa nascere i problemi legati allo 12121 nella visualizzazione della sequenza delle correzioni-->
                 </ab>
             </div>
@@ -1676,7 +1676,26 @@
             </div>
             <div type="page">
                 <pb n="19r1" facs="19r.jpg"/>
-                <!-- strato 1-->
+                <fw place="top_right" type="pageNum">
+                    <app>
+                        <lem><mod change="#strato-4">21</mod></lem>
+                        <rdg><mod change="#strato-1">20</mod></rdg>
+                    </app></fw>
+                <p rend="indent">
+                <mod change="#strato-1">
+                        <lg><l n="9">e dagli eletti suoi recinti un’alma</l>
+                        <l n="10">grande ti trasse e per le tue virtudi</l>
+                        <l n="11">ti rendi quasi Sol fra lucidi astri.</l></lg> 
+                        un altro era questo:
+                        Dario: Deh! vieni, inclito vate; omai non tristi
+                        fantasime, non ombre insidiatrici
+                        vagano  per quest’aure e l’ira iniqua
+                        dei tuoi nemici non un cupo suono
+                        rende a le regie stanze.
+
+                </mod>
+                </p>
+                
             </div>
         </body>
         <back>
