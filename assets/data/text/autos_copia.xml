@@ -263,8 +263,8 @@
                         <lb n="5"/>quasi eguale a quello d’oggi.
                         <lb n="6"/>Qua<mod change="#strato-11"> 
                             <subst>
-                                <del  seq="1" rend="overwritten">nt'</del>
-                                <add place="superimposed" seq="2">le</add>
+                                <del rend="overwritten">nt'</del>
+                                <add place="superimposed">le</add>
                             </subst>
                         </mod> insegnamento
                         <lb n="7"/>e quale merito me ne viene!
@@ -1686,15 +1686,28 @@
                         <lg><l n="9">e dagli eletti suoi recinti un’alma</l>
                         <l n="10">grande ti trasse e per le tue virtudi</l>
                         <l n="11">ti rendi quasi Sol fra lucidi astri.</l></lg> 
-                        <lb n="1"/>un altro era questo:
-                        <lb n="2"/>Dario: 
-                        <lg n="10"><l n="1">Deh! vieni, inclito vate; omai non tristi</l>
+                        <lb n="12"/>un <mod change="#strato-1">
+                            <del rend="strikethrough">'</del>
+                        </mod>altro era questo:
+                        <lb n="5"/>Dario: 
+                        <lg n="6"><l n="1">Deh! vieni, inclito vate; omai non trist<mod change="#strato-1">
+                                    <subst><del rend="overwritten">e</del>
+                                        <add place="superimposed">i</add></subst></mod></l>
                         <l n="2">fantasime, non ombre insidiatrici</l>
                         <l n="3">vagano  per quest’aure e l’ira iniqua</l>
                         <l n="4">dei tuoi nemici non un cupo suono</l>
-                        <l n="5">rende a le regie stanze.</l></lg>
-
-                </mod>
+                        <l n="5">rende a le regie stanze.</l></lg></mod>
+                        <mod change="#strato-4">
+                            <add place="margin">Ci si sente l’<persName ref="#Alfieri">Alfieri</persName></add>
+                        </mod>
+                    <lb/>
+                    <mod change="#strato-1" rend="strikethrought"><lb n="12"/>Quindi nello svolgersi delle scene sono da mostrarsi i seguenti versi
+                    <lb n="13"/>messi in bocca al Re Persiano.
+                        <mod change="#strato-1">
+                            <del rend="strikethrough">dipinto quasi filosofo</del>
+                        </mod>
+                    </mod>
+                
                 </p>
                 
             </div>
