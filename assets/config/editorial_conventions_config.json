@@ -22,6 +22,22 @@
             }
         }
     },
+    "additionSuperimposed": {
+    "markup": {
+        "element": "add",
+        "attributes": [{ "place": ["superimposed"] }]
+    },
+    "layouts": {
+        "interpretative": {
+            "pre": "", 
+            "post": "", 
+            "style": { "font-weight": "bold", "color": "#2c3e50" }
+        },
+        "diplomatic": {
+            "style": { "background-color": "#bdecb6", "text-decoration": "underline" }
+        }
+    }
+},
     "additionAbove": {
         "markup": {
             "element": "add",
@@ -30,8 +46,7 @@
                     "place": [
                         "above",
                         "sup",
-                        "superscript",
-                        "superimposed"
+                        "superscript"
                     ]
                 }
             ]

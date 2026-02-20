@@ -141,7 +141,7 @@
   "defaultViewMode": "text",
   "proseVersesToggler": true,
   "defaultTextFlow": "prose",
-  "verseNumberPrinter": 5,
+  "verseNumberPrinter": 100,
   "readingColorLight": "rgb(255 241 208)",
   "readingColorDark": "rgb(101, 138, 255)",
   "externalBibliography": {

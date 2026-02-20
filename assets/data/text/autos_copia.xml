@@ -321,7 +321,7 @@
                          <substJoin target="#change1 #change2"/>
                          </mod>
                          Con substjoin, però, la correzione si visualizza solo nello strato-1 e si perde la diacronia dell'intervento.
-                    --><choice resp="#ST"><sic>comincerò</sic><corr resp="#ST">comincierò</corr></choice>
+                    --><choice resp="#ST"><sic>comincierò</sic><corr resp="#ST">comincerò</corr></choice>
                     <mod change="#strato-1"><add place="above">tuttavia</add></mod>
                     ad esaminare e ad esporre i fatti <lb n="6"/> e i sentimenti 
                     <app>
@@ -436,7 +436,7 @@
                      già
                     <mod change="#strato-0"><add place="above">de'</add></mod> frutti <lb n="4"/>maturi, 
                     <mod change="#strato-0"><del rend="strikethrough">e mi</del>
-                        mostra<mod change="#strato-0"></mod><subst>
+                        mostra<subst>
                             <add place="superimposed">ndomi</add> <del rend="overwritten">rono</del>
                         </subst> </mod> 
                     chi fossi, e mi dettero a sperare gran-<lb n="5"/>demente
@@ -606,7 +606,7 @@
                         <l n="3">e l’ore interrotte</l>
                         <l n="4">mi sono dal pianto.</l>
                         <l n="5">Ho tremato e patito</l>
-                        <l n="6">in modo infinito.</l></lg>
+                        <l n="6">in modo infinito.</l></lg><!-- Ragionare se andare a capo o meno con i versi, perchè soprattutto nelle parti successive deiventa tutto più confusionario-->
                     <lb/>
                     <lg n="2"><l n="7">Ho  sentito la fata</l>
                     <l n="8">che all’inizio bussava</l>
@@ -879,7 +879,7 @@
                 <fw place="top_right" type="pageNum"><mod change="#strato-1"><add>8</add></mod></fw>
                 <p rend="indent">
                     <lb n="1"/>Due o tre giorni dopo ripensando al fatto ne 
-                    <choice resp="#ST"><sic>senti</sic><corr>sentii</corr></choice> rimorso
+                    <choice resp="#ST"><sic>sentii</sic><corr>senti</corr></choice> rimorso
                     <lb n="2"/>come d’un delitto, 
                     <mod change="#strato-0">
                         <subst><del rend="strikethrough">contro</del><add place="inline">in specie </add></subst>
@@ -1627,7 +1627,7 @@
             </div>
             <div type="page">
                 <pb n="18v1" facs="18v.jpg"/>
-                <fw place="top_right" type="pageNum"><mod change="#strato-4"><add>20</add></mod></fw>
+                <fw place="top_left" type="pageNum"><mod change="#strato-4"><add>20</add></mod></fw>
                 <p rend="indent">
                     <mod change="#strato-2">
                         <lb n="1"/>Più volte <mod change="#strato-2">
@@ -1707,9 +1707,58 @@
                             <del rend="strikethrough">dipinto quasi filosofo</del>
                         </mod>
                     </mod>
+                    <mod change="#strato-1"><lg><l n="1" rend="center">Ormai</l>
+                    <l n="2">non lungi è l’ora in cui piegherò il capo</l>
+                    <l n="3">sotto l’avello, che pur degno l’ossa</l>
+                   <l n="4">mie serberà fra le sacrate mura;</l>
+                    <l n="5">e dei posteri al cor che quella tomba</l><mod change="#strato-4">
+                            <add place="margin">
+                                    <persName ref="#Foscolo">Foscolo</persName></add>
+                        </mod> 
+                    <l n="6">di silenzio profonda e di virtude</l> 
+                    <l n="7">magnanima vedranno sacro ricordo</l>
+                    <l n="8">sarà quel marmo.</l></lg></mod>
                 
                 </p>
-                
+            </div>
+            <div type="page">
+                <pb n="19v1" facs="19v.jpg"/>
+                <fw place="top_left" type="pageNum"><mod change="#strato-4"><add>22</add></mod></fw>
+                <p rend="indent">
+                    <mod change="#strato-2">
+                        <lb n="1"/>Nella prima 
+                        <choice resp="#US"><sic><mod change="#strato-2">edizione</mod></sic>
+                            <corr resp="#US"><mod change="#strato-9">versione</mod></corr></choice>
+                       della mia tragedia trovai tuttavia molti versi
+                        <lb n="2"/>zoppicanti, ma nella seconda <mod change="#strato-2">
+                            <subst><del rend="strikethrough">e nella p</del>
+                                <add place="inline">son</add></subst></mod> sicuro che non ve n’era
+                        <lb n="3"/>uno che non tornasse. Nella terza ogni savio lettore può dire se
+                        <lb n="4"/>avevo imparato a versificare o no.</mod>
+                </p>
+                        <p rend="indent">
+                    <mod change="#strato-2"><lb n="5"/>Dal novembre 1905 al Marzo 1906 compii i primi 3 atti, che il
+                        <lb n="6"/>primo d’Aprile gittai per la latrina coll’idea di <mod change="#strato-2">cominciare
+                        <lb n="7"/><subst><add place="above">da capo</add>
+                            <del rend="strikethrough">una tragedia</del>    
+                            </subst> nuov<subst>
+                                <del rend="overwritten">a</del> 
+                                <add place="superimposed">o</add>   
+                            </subst> <add place="above">e migliore il mio lavoro coll’idea di</add>
+                            <subst>
+                                <del rend="strikethrough">da dedicarsi</del>
+                                <add place="inline">finir<subst><del rend="overwritten">si</del><add place="superimposed">lo</add></subst></add>
+                            </subst>il 30 Giugno per
+                        <lb n="8"/>poterl<subst><del rend="overwritten">a</del><add place="superimposed">o</add>  
+                            </subst></mod> dedicare a un lauto mio amico che in quel giorno avrebbe festeggia-
+                        <lb n="9"/>to l’onomastico. Mi ricordo che durante quella prima edizione io conta-
+                        <lb n="10"/>vo sempre i versi colle dita, nella seconda aveva già preso
+                        <lb n="11"/>partica e lasciato la fanciullesca abitudine. Per il 30 Giugno 1906 la seconda edizione, come
+                        <lb n="12"/>era da aspettarselo non fu pronta ed io lasciai il pensiero della
+                        <lb n="13"/>dedica. La finii invece nelle vacanze quando ero in
+                        <lb n="14"/>villeggiatura nella villa Vescovile di S. Anna; e
+                        <lb n="15"/>la credetti allora stabile.</mod>
+                </p>
             </div>
         </body>
         <back>
